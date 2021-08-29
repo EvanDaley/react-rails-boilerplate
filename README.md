@@ -10,8 +10,10 @@ This is a simple boilerplate react/rails app that includes:
 
 Additionally, for convenience, I've installed **Tailwind** and stubbed out:
 - one controller
+- one model
 - one ruby test
 - a little axios helper
+- a UI component that hits the health check route on the api
 
 ## Development
 
