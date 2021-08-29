@@ -2,11 +2,11 @@
 
 ## Description
 
-This is a simple boilerplate react/rails app. This includes:
+This is a simple boilerplate react/rails app that includes:
 
-1. frontend project generated with `npx create-react-app frontend`
-2. backend project generated with `rails new backend`
-3. A simple docker-compose setup.
+1. A frontend project generated with `npx create-react-app frontend`
+2. A backend project generated with `rails new backend`
+3. A dead-simple docker-compose setup.
 
 Additionally, for convenience, I've installed **Tailwind** and stubbed out:
 - one controller
