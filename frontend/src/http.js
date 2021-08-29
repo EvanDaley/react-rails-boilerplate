@@ -1,8 +1,6 @@
 import axios from 'axios'
 
 const axiosClient = axios.create({
-    baseURL: '/api/v3/',
-
     transformRequest:
         [
             (data, headers) => {
