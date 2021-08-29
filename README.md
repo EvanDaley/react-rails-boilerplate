@@ -8,21 +8,26 @@ This is a simple boilerplate react/rails app. This includes:
 2. backend project generated with `rails new backend`
 3. A simple docker-compose setup.
 
-Additionally, for convenience, I've installed the following:
+Additionally, for convenience, I've installed **Tailwind** and stubbed out:
+- one controller
+- one ruby test
+- a little axios helper
 
-NPM Packages:
-1. 
-2.
-3.
+## Development
 
-Gems:
-1.
-2.
-3.
-
-## Setup
+To run the backend locally:
 ```
-cd backend
+bundle install
 docker-compose up -d
 rake db:migrate
+bin/rails server
 ```
+
+Frontend
+```
+yarn install
+yarn start
+```
+
+## Health check for backend
+http://localhost:3000/health_check
