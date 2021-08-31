@@ -102,6 +102,9 @@ GEM
     nokogiri (1.12.3)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
+    pg (1.2.3)
+    postgresql (1.0.0)
+      pg
     public_suffix (4.0.6)
     puma (4.3.8)
       nio4r (~> 2.0)
@@ -208,6 +211,7 @@ DEPENDENCIES
   health_check (~> 3.1)
   jbuilder (~> 2.7)
   listen (~> 3.2)
+  postgresql (~> 1.0)
   puma (~> 4.1)
   rack-cors
   rails (~> 6.0.3, >= 6.0.3.4)
